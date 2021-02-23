@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Tammudu+2&display=swap');
 .main-caption{
   text-decoration: none;
+  color: aqua;
+  font-size: 1.6em;
+  
 }
 
 .info{
@@ -15,9 +18,4 @@
 
 .sik{
   font-family: 'Baloo Tammudu 2', cursive;
-}
-
-.ppt{
-  color: aqua;
-  font-size: 1.6em;
 }
