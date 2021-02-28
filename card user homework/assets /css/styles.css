@@ -1,0 +1,77 @@
+body{
+  color:white;
+  font-size: 1.5em;
+}
+.card-container{
+  text-align: center;
+  background-color: brown;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+.section-title{
+  margin: 15px 0;
+  font-size: 1.8em;
+  object-position: center;
+}
+.card-wrapper{
+  display: inline-block;
+  margin: 10px;
+  object-position: center;
+  background-color: rgb(59, 56, 56);
+  width: 450px;
+  
+  text-align: center;
+  font-family: sans-serif;
+
+}
+.card-header{
+  background-color: rgb(62, 145, 145);
+  height: 200px;
+}
+.card-content{
+  padding: 0 20px 20px;
+}
+.photo-wrapper{
+  --user-photo-size: 180px;
+  width: var(--user-photo-size);
+  height: var(--user-photo-size);
+  margin: calc(var(--user-photo-size)/-2) auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  
+}
+.profile-image{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+
+} 
+.user-card-tabs{
+  display: inline-block;
+}
+.user-card-name{
+font-weight: bold;
+font-size: 1.5em;
+}
+.user-card-options{
+  opacity: 0.5;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.button-size{
+  padding: 8px 20px;
+  border: 1px solid ;
+}
+.card-button-facebook{
+  background-color: dodgerblue;
+}
+.card-button-tweet{
+  background-color: green;
+}
+.card-button-follow{
+  background-color: red;
+}
